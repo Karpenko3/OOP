@@ -11,11 +11,11 @@ Detail::Detail() {
     weight = 0;
 }
 
-Detail:: Detail (string n, string t, int c, int w){
-    name = n;
-    type = t;
-    count = c;
-    weight = w;
+Detail::Detail(string name, string type, int count, int weight) {
+    this->name = name;
+    this->type = type;
+    this->count = count;
+    this->weight = weight;
 }
 
 Detail:: Detail (const Detail &other){
